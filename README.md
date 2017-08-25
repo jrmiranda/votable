@@ -16,6 +16,12 @@ Publish the config file `config/votable.php`:
 php artisan vendor:publish --provider="JrMiranda\Votable\VotableServiceProvider"
 ```
 
+Add the following provider in your `config/app.php`:
+
+```
+JrMiranda\Votable\VotableServiceProvider::class,
+```
+
 ## Usage
 
 
