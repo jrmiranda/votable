@@ -1,0 +1,14 @@
+{
+  "name": "jrmiranda/votable",
+  "description": "A simple vote system with caching.",
+  "type": "laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "jrmiranda",
+      "email": "s.jr@live.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {}
+}
