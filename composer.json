@@ -9,6 +9,14 @@
       "email": "s.jr@live.com"
     }
   ],
-  "minimum-stability": "stable",
-  "require": {}
+  "autoload": {
+    "psr-4": {
+      "JrMiranda\\Votable\\": "packages/jrmiranda/votable/src"
+    },
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=5.5.9"
+  }
 }
