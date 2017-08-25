@@ -1,7 +1,6 @@
 # Laravel 5 Cached like/dislike System
 
 This is a simple Laravel package for help the implementation of a simple vote system with caching.
-It is based on jcc/laravel-vote.
 
 ## Installing
 
