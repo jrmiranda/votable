@@ -12,7 +12,7 @@ composer require jrmiranda/votable:dev-master
 
 Add the following provider in your `config/app.php`:
 
-```
+```php
 JrMiranda\Votable\VotableServiceProvider::class,
 ```
 
@@ -20,6 +20,12 @@ Publish the config file `config/votable.php`:
 
 ```
 php artisan vendor:publish --provider="JrMiranda\Votable\VotableServiceProvider"
+```
+
+Run the migrations:
+
+```
+php artisan migrate
 ```
 
 ## Usage
